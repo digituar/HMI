@@ -1,0 +1,24 @@
+{
+  "name": "hmi",
+  "version": "0.0.1",
+  "description": "Health Medical Information",
+  "scripts": {
+    "dev": "watch -d -n 1 'clear && yarn test'",
+    "test": "asp --nologo",
+    "clean": "rm -rf ./build && rm -rf ./neardev",
+    "build": "asb --target debug",
+    "build:release": "asb"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "asbuild": "^0.2.0",
+    "axios": "^0.26.1",
+    "near-sdk-as": "^3.2.3"
+  },
+  "devDependencies": {
+    "assemblyscript": "^0.20.4"
+  },
+  "main": "as-pect.config.js",
+  "keywords": []
+}
