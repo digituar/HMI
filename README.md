@@ -115,12 +115,6 @@ List all patient reports
 near call $CONTRACT getAllPatientReports '{}' --accountId YOUR-NAME.testnet
 ```
 
-Get all patient reports
-
-```sh
-near call $CONTRACT getAllPatientReports '{}' --accountId YOUR-NAME.testnet
-```
-
 Get patient report details by patient id
 
 ```sh
