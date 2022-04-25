@@ -90,5 +90,4 @@ echo
 near call $CONTRACT deleteDoctor '{"doctorId": "doc1.testnet"}' --accountId YOUR-NAME.testnet
 
 echo
-echo "now run this script again to see changes made by this file"
 exit 0
