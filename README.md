@@ -92,7 +92,7 @@ near call $CONTRACT createDoctor '{"id": "doc2.testnet", "qualification": "Ortho
 Get doctor details by id
 
 ```sh
-near view $CONTRACT getDoctorById '{"doctorId": "digituar.testnet"}' --accountId YOUR-NAME.testnet
+near view $CONTRACT getDoctorById '{"doctorId": "doc1.testnet"}' --accountId YOUR-NAME.testnet
 ```
 
 Delete doctor
